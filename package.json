@@ -1,0 +1,45 @@
+{
+  "name": "generator-muriki-module",
+  "version": "1.0.0",
+  "description": "A scaffold for muriki's modules.",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": {
+    "name": "Dieter Luypaert",
+    "email": "dieterluypaert@gmail.com"
+  },
+  "license": "MIT",
+  "repository": "moeriki/generator-muriki-module",
+  "main": "generators/index.js",
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+    "chalk": "1.0.0",
+    "inquirer-npm-name": "2.0.0",
+    "yeoman-generator": "0.23.0",
+    "yosay": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-muriki": "5.2.3",
+    "eslint-plugin-import": "1.15.0",
+    "eslint-plugin-node": "2.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "muriki",
+      "muriki/env/node",
+      "muriki/es/2015-node4"
+    ],
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "no-underscore-dangle": 0
+    }
+  }
+}

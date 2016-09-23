@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": {
+    "name": "Dieter Luypaert",
+    "email": "dieterluypaert@gmail.com"
+  },
+  "license": "MIT",
+  "repository": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib/ __test__/",
+    "test": "jest",
+    "coverage": "jest --coverage  && cat ./coverage/lcov.info | coveralls"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "3.5.0",
+    "eslint-config-muriki": "5.2.3",
+    "eslint-plugin-import": "1.15.0",
+    "eslint-plugin-jasmine": "1.8.1",
+    "eslint-plugin-node": "2.0.0"
+  }
+}
