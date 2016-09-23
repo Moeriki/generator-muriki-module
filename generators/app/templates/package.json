@@ -21,6 +21,7 @@
     "eslint-config-muriki": "5.2.3",
     "eslint-plugin-import": "1.15.0",
     "eslint-plugin-jasmine": "1.8.1",
-    "eslint-plugin-node": "2.0.0"
+    "eslint-plugin-node": "2.0.0",
+    "jest": "15.1.1"
   }
 }
