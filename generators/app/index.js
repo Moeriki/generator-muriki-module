@@ -47,7 +47,7 @@ module.exports = yeoman.Base.extend({
       message: 'Module name',
     }, this).then((answers) => {
       Object.assign(this.answers, answers);
-      this.destinationRoot(path.join(this.env.cwd, answers.name));
+      this.destinationRoot(path.join(this.env.cwd, `node-${answers.name}`));
 
       return this.prompt([
         {
